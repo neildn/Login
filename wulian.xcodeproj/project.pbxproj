@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7701755020AD68B4007AE0AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701754F20AD68B4007AE0AB /* AppDelegate.m */; };
+		7701755620AD68B4007AE0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7701755420AD68B4007AE0AB /* Main.storyboard */; };
+		7701755820AD68B5007AE0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7701755720AD68B5007AE0AB /* Assets.xcassets */; };
+		7701755B20AD68B5007AE0AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7701755920AD68B5007AE0AB /* LaunchScreen.storyboard */; };
+		7701755E20AD68B5007AE0AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701755D20AD68B5007AE0AB /* main.m */; };
+		7701756820AD68B5007AE0AB /* wulianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701756720AD68B5007AE0AB /* wulianTests.m */; };
+		7701757320AD68B5007AE0AB /* wulianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701757220AD68B5007AE0AB /* wulianUITests.m */; };
+		7701758220AD68F0007AE0AB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701758120AD68F0007AE0AB /* MainViewController.m */; };
+		7701758520AD6923007AE0AB /* MainViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7701758420AD6923007AE0AB /* MainViewStoryboard.storyboard */; };
+		7701758920AD6967007AE0AB /* TabBarOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701758720AD6967007AE0AB /* TabBarOneViewController.m */; };
+		7701758A20AD6967007AE0AB /* TabBarOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7701758820AD6967007AE0AB /* TabBarOneViewController.xib */; };
+		7701759320AD6994007AE0AB /* TabBarTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701759120AD6994007AE0AB /* TabBarTwoViewController.m */; };
+		7701759420AD6994007AE0AB /* TabBarTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7701759220AD6994007AE0AB /* TabBarTwoViewController.xib */; };
+		7701759A20AD6CC7007AE0AB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701759820AD6CC7007AE0AB /* LoginViewController.m */; };
+		7701759B20AD6CC7007AE0AB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7701759920AD6CC7007AE0AB /* LoginViewController.xib */; };
+		770175A420AD7B65007AE0AB /* AccountAndPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770175A320AD7B65007AE0AB /* AccountAndPasswordView.m */; };
+		770175A620AD7B77007AE0AB /* AccountAndPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770175A520AD7B77007AE0AB /* AccountAndPasswordView.xib */; };
+		775D2C3A20AEB8EC0077F076 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 775D2C3820AEB8EC0077F076 /* Toast+UIView.m */; };
+		775D2C3C20AEEA5F0077F076 /* ForgettedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775D2C3B20AEEA5F0077F076 /* ForgettedView.xib */; };
+		7765234820AE85BE00B97524 /* RegisteredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765234720AE85BE00B97524 /* RegisteredView.m */; };
+		7765234B20AE85F200B97524 /* ForgettedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765234A20AE85F200B97524 /* ForgettedView.m */; };
+		7765235120AE880500B97524 /* RegisteredView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7765235020AE880500B97524 /* RegisteredView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7701756420AD68B5007AE0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7701754320AD68B3007AE0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7701754A20AD68B4007AE0AB;
+			remoteInfo = wulian;
+		};
+		7701756F20AD68B5007AE0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7701754320AD68B3007AE0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7701754A20AD68B4007AE0AB;
+			remoteInfo = wulian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7701754B20AD68B4007AE0AB /* wulian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wulian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7701754E20AD68B4007AE0AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7701754F20AD68B4007AE0AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7701755520AD68B4007AE0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7701755720AD68B5007AE0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7701755A20AD68B5007AE0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7701755C20AD68B5007AE0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7701755D20AD68B5007AE0AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7701756320AD68B5007AE0AB /* wulianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wulianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7701756720AD68B5007AE0AB /* wulianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wulianTests.m; sourceTree = "<group>"; };
+		7701756920AD68B5007AE0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7701756E20AD68B5007AE0AB /* wulianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wulianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7701757220AD68B5007AE0AB /* wulianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wulianUITests.m; sourceTree = "<group>"; };
+		7701757420AD68B5007AE0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7701758020AD68F0007AE0AB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7701758120AD68F0007AE0AB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7701758420AD6923007AE0AB /* MainViewStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewStoryboard.storyboard; sourceTree = "<group>"; };
+		7701758620AD6967007AE0AB /* TabBarOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarOneViewController.h; sourceTree = "<group>"; };
+		7701758720AD6967007AE0AB /* TabBarOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarOneViewController.m; sourceTree = "<group>"; };
+		7701758820AD6967007AE0AB /* TabBarOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarOneViewController.xib; sourceTree = "<group>"; };
+		7701759020AD6994007AE0AB /* TabBarTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarTwoViewController.h; sourceTree = "<group>"; };
+		7701759120AD6994007AE0AB /* TabBarTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarTwoViewController.m; sourceTree = "<group>"; };
+		7701759220AD6994007AE0AB /* TabBarTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarTwoViewController.xib; sourceTree = "<group>"; };
+		7701759720AD6CC7007AE0AB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7701759820AD6CC7007AE0AB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7701759920AD6CC7007AE0AB /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		770175A220AD7B65007AE0AB /* AccountAndPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountAndPasswordView.h; sourceTree = "<group>"; };
+		770175A320AD7B65007AE0AB /* AccountAndPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountAndPasswordView.m; sourceTree = "<group>"; };
+		770175A520AD7B77007AE0AB /* AccountAndPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountAndPasswordView.xib; sourceTree = "<group>"; };
+		775D2C3820AEB8EC0077F076 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		775D2C3920AEB8EC0077F076 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		775D2C3B20AEEA5F0077F076 /* ForgettedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgettedView.xib; sourceTree = "<group>"; };
+		7765234620AE85BE00B97524 /* RegisteredView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisteredView.h; sourceTree = "<group>"; };
+		7765234720AE85BE00B97524 /* RegisteredView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisteredView.m; sourceTree = "<group>"; };
+		7765234920AE85F200B97524 /* ForgettedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgettedView.h; sourceTree = "<group>"; };
+		7765234A20AE85F200B97524 /* ForgettedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgettedView.m; sourceTree = "<group>"; };
+		7765235020AE880500B97524 /* RegisteredView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisteredView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7701754820AD68B4007AE0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701756020AD68B5007AE0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701756B20AD68B5007AE0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7701754220AD68B3007AE0AB = {
+			isa = PBXGroup;
+			children = (
+				7701754D20AD68B4007AE0AB /* wulian */,
+				7701756620AD68B5007AE0AB /* wulianTests */,
+				7701757120AD68B5007AE0AB /* wulianUITests */,
+				7701754C20AD68B4007AE0AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7701754C20AD68B4007AE0AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7701754B20AD68B4007AE0AB /* wulian.app */,
+				7701756320AD68B5007AE0AB /* wulianTests.xctest */,
+				7701756E20AD68B5007AE0AB /* wulianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7701754D20AD68B4007AE0AB /* wulian */ = {
+			isa = PBXGroup;
+			children = (
+				770175A720AD8DB4007AE0AB /* Server */,
+				7701758320AD68FF007AE0AB /* class */,
+				775D2C3720AEB8EC0077F076 /* Toast */,
+				7701754E20AD68B4007AE0AB /* AppDelegate.h */,
+				7701754F20AD68B4007AE0AB /* AppDelegate.m */,
+				7701755420AD68B4007AE0AB /* Main.storyboard */,
+				7701755720AD68B5007AE0AB /* Assets.xcassets */,
+				7701755920AD68B5007AE0AB /* LaunchScreen.storyboard */,
+				7701755C20AD68B5007AE0AB /* Info.plist */,
+				7701755D20AD68B5007AE0AB /* main.m */,
+			);
+			path = wulian;
+			sourceTree = "<group>";
+		};
+		7701756620AD68B5007AE0AB /* wulianTests */ = {
+			isa = PBXGroup;
+			children = (
+				7701756720AD68B5007AE0AB /* wulianTests.m */,
+				7701756920AD68B5007AE0AB /* Info.plist */,
+			);
+			path = wulianTests;
+			sourceTree = "<group>";
+		};
+		7701757120AD68B5007AE0AB /* wulianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7701757220AD68B5007AE0AB /* wulianUITests.m */,
+				7701757420AD68B5007AE0AB /* Info.plist */,
+			);
+			path = wulianUITests;
+			sourceTree = "<group>";
+		};
+		7701758320AD68FF007AE0AB /* class */ = {
+			isa = PBXGroup;
+			children = (
+				7701759620AD6CB0007AE0AB /* V */,
+				7701759520AD6B81007AE0AB /* C */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		7701759520AD6B81007AE0AB /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7701758020AD68F0007AE0AB /* MainViewController.h */,
+				7701758120AD68F0007AE0AB /* MainViewController.m */,
+				7701758420AD6923007AE0AB /* MainViewStoryboard.storyboard */,
+				7701758620AD6967007AE0AB /* TabBarOneViewController.h */,
+				7701758720AD6967007AE0AB /* TabBarOneViewController.m */,
+				7701758820AD6967007AE0AB /* TabBarOneViewController.xib */,
+				7701759020AD6994007AE0AB /* TabBarTwoViewController.h */,
+				7701759120AD6994007AE0AB /* TabBarTwoViewController.m */,
+				7701759220AD6994007AE0AB /* TabBarTwoViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7701759620AD6CB0007AE0AB /* V */ = {
+			isa = PBXGroup;
+			children = (
+				7701759C20AD7392007AE0AB /* Login&Register&ForgetView */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7701759C20AD7392007AE0AB /* Login&Register&ForgetView */ = {
+			isa = PBXGroup;
+			children = (
+				7701759720AD6CC7007AE0AB /* LoginViewController.h */,
+				7701759820AD6CC7007AE0AB /* LoginViewController.m */,
+				7701759920AD6CC7007AE0AB /* LoginViewController.xib */,
+				770175A220AD7B65007AE0AB /* AccountAndPasswordView.h */,
+				770175A320AD7B65007AE0AB /* AccountAndPasswordView.m */,
+				770175A520AD7B77007AE0AB /* AccountAndPasswordView.xib */,
+				7765234620AE85BE00B97524 /* RegisteredView.h */,
+				7765234720AE85BE00B97524 /* RegisteredView.m */,
+				7765235020AE880500B97524 /* RegisteredView.xib */,
+				7765234920AE85F200B97524 /* ForgettedView.h */,
+				7765234A20AE85F200B97524 /* ForgettedView.m */,
+				775D2C3B20AEEA5F0077F076 /* ForgettedView.xib */,
+			);
+			path = "Login&Register&ForgetView";
+			sourceTree = "<group>";
+		};
+		770175A720AD8DB4007AE0AB /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				770175A820AD8F27007AE0AB /* Login&RegisterServer */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		770175A820AD8F27007AE0AB /* Login&RegisterServer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login&RegisterServer";
+			sourceTree = "<group>";
+		};
+		775D2C3720AEB8EC0077F076 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				775D2C3920AEB8EC0077F076 /* Toast+UIView.h */,
+				775D2C3820AEB8EC0077F076 /* Toast+UIView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7701754A20AD68B4007AE0AB /* wulian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7701757720AD68B5007AE0AB /* Build configuration list for PBXNativeTarget "wulian" */;
+			buildPhases = (
+				7701754720AD68B4007AE0AB /* Sources */,
+				7701754820AD68B4007AE0AB /* Frameworks */,
+				7701754920AD68B4007AE0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wulian;
+			productName = wulian;
+			productReference = 7701754B20AD68B4007AE0AB /* wulian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7701756220AD68B5007AE0AB /* wulianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7701757A20AD68B5007AE0AB /* Build configuration list for PBXNativeTarget "wulianTests" */;
+			buildPhases = (
+				7701755F20AD68B5007AE0AB /* Sources */,
+				7701756020AD68B5007AE0AB /* Frameworks */,
+				7701756120AD68B5007AE0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7701756520AD68B5007AE0AB /* PBXTargetDependency */,
+			);
+			name = wulianTests;
+			productName = wulianTests;
+			productReference = 7701756320AD68B5007AE0AB /* wulianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7701756D20AD68B5007AE0AB /* wulianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7701757D20AD68B5007AE0AB /* Build configuration list for PBXNativeTarget "wulianUITests" */;
+			buildPhases = (
+				7701756A20AD68B5007AE0AB /* Sources */,
+				7701756B20AD68B5007AE0AB /* Frameworks */,
+				7701756C20AD68B5007AE0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7701757020AD68B5007AE0AB /* PBXTargetDependency */,
+			);
+			name = wulianUITests;
+			productName = wulianUITests;
+			productReference = 7701756E20AD68B5007AE0AB /* wulianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7701754320AD68B3007AE0AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Neil;
+				TargetAttributes = {
+					7701754A20AD68B4007AE0AB = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					7701756220AD68B5007AE0AB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7701754A20AD68B4007AE0AB;
+					};
+					7701756D20AD68B5007AE0AB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7701754A20AD68B4007AE0AB;
+					};
+				};
+			};
+			buildConfigurationList = 7701754620AD68B3007AE0AB /* Build configuration list for PBXProject "wulian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7701754220AD68B3007AE0AB;
+			productRefGroup = 7701754C20AD68B4007AE0AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7701754A20AD68B4007AE0AB /* wulian */,
+				7701756220AD68B5007AE0AB /* wulianTests */,
+				7701756D20AD68B5007AE0AB /* wulianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7701754920AD68B4007AE0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701755B20AD68B5007AE0AB /* LaunchScreen.storyboard in Resources */,
+				770175A620AD7B77007AE0AB /* AccountAndPasswordView.xib in Resources */,
+				7701759420AD6994007AE0AB /* TabBarTwoViewController.xib in Resources */,
+				7701758A20AD6967007AE0AB /* TabBarOneViewController.xib in Resources */,
+				7765235120AE880500B97524 /* RegisteredView.xib in Resources */,
+				7701758520AD6923007AE0AB /* MainViewStoryboard.storyboard in Resources */,
+				7701755820AD68B5007AE0AB /* Assets.xcassets in Resources */,
+				7701759B20AD6CC7007AE0AB /* LoginViewController.xib in Resources */,
+				7701755620AD68B4007AE0AB /* Main.storyboard in Resources */,
+				775D2C3C20AEEA5F0077F076 /* ForgettedView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701756120AD68B5007AE0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701756C20AD68B5007AE0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7701754720AD68B4007AE0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770175A420AD7B65007AE0AB /* AccountAndPasswordView.m in Sources */,
+				7765234B20AE85F200B97524 /* ForgettedView.m in Sources */,
+				7701758920AD6967007AE0AB /* TabBarOneViewController.m in Sources */,
+				7701759320AD6994007AE0AB /* TabBarTwoViewController.m in Sources */,
+				7765234820AE85BE00B97524 /* RegisteredView.m in Sources */,
+				7701759A20AD6CC7007AE0AB /* LoginViewController.m in Sources */,
+				775D2C3A20AEB8EC0077F076 /* Toast+UIView.m in Sources */,
+				7701755E20AD68B5007AE0AB /* main.m in Sources */,
+				7701755020AD68B4007AE0AB /* AppDelegate.m in Sources */,
+				7701758220AD68F0007AE0AB /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701755F20AD68B5007AE0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701756820AD68B5007AE0AB /* wulianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701756A20AD68B5007AE0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701757320AD68B5007AE0AB /* wulianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7701756520AD68B5007AE0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7701754A20AD68B4007AE0AB /* wulian */;
+			targetProxy = 7701756420AD68B5007AE0AB /* PBXContainerItemProxy */;
+		};
+		7701757020AD68B5007AE0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7701754A20AD68B4007AE0AB /* wulian */;
+			targetProxy = 7701756F20AD68B5007AE0AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7701755420AD68B4007AE0AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7701755520AD68B4007AE0AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7701755920AD68B5007AE0AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7701755A20AD68B5007AE0AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7701757520AD68B5007AE0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7701757620AD68B5007AE0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7701757820AD68B5007AE0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = wulian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neal.login;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7701757920AD68B5007AE0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = wulian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neal.login;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7701757B20AD68B5007AE0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7DM96RW49;
+				INFOPLIST_FILE = wulianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuolve.wulianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wulian.app/wulian";
+			};
+			name = Debug;
+		};
+		7701757C20AD68B5007AE0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7DM96RW49;
+				INFOPLIST_FILE = wulianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuolve.wulianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wulian.app/wulian";
+			};
+			name = Release;
+		};
+		7701757E20AD68B5007AE0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7DM96RW49;
+				INFOPLIST_FILE = wulianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuolve.wulianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wulian;
+			};
+			name = Debug;
+		};
+		7701757F20AD68B5007AE0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7DM96RW49;
+				INFOPLIST_FILE = wulianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuolve.wulianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wulian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7701754620AD68B3007AE0AB /* Build configuration list for PBXProject "wulian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7701757520AD68B5007AE0AB /* Debug */,
+				7701757620AD68B5007AE0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7701757720AD68B5007AE0AB /* Build configuration list for PBXNativeTarget "wulian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7701757820AD68B5007AE0AB /* Debug */,
+				7701757920AD68B5007AE0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7701757A20AD68B5007AE0AB /* Build configuration list for PBXNativeTarget "wulianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7701757B20AD68B5007AE0AB /* Debug */,
+				7701757C20AD68B5007AE0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7701757D20AD68B5007AE0AB /* Build configuration list for PBXNativeTarget "wulianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7701757E20AD68B5007AE0AB /* Debug */,
+				7701757F20AD68B5007AE0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7701754320AD68B3007AE0AB /* Project object */;
+}
